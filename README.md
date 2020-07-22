@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="uploads/Entra21-3-300x283.png" alt="Programa Entra 21" height="250px">
+  <img src="uploads/Entra21-3-300x283.png" alt="Programa Entra 21" height="200px">
 </h1>
 <h2 align="center">
   Edição 2018
