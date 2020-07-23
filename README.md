@@ -9,4 +9,8 @@
   Exercícios de Lógica na Linguagem Java
 </h3>
 
-<img src="https://img.shields.io/badge/made-Gabriel%20B%20Sousa-007d99">
+<p align="center">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99&style=plastic">
+
+  <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made-Gabriel%20B%20Sousa-007d99">
+</p>
