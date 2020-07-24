@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://blusoft.org.br/home/entra-21/">
-  <img src="uploads/Entra21-3-300x283.png" alt="Programa Entra21">
+  <img src="resources/images/Entra21-3-300x283.png" alt="Programa Entra21">
   </a>
   <h1>Edição 2018 | Desenvolvimento Java</h1>
 </div>
@@ -16,5 +16,4 @@
 </p>
 
 ---
-
 Feito by Gabriel B Sousa
