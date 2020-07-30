@@ -3,7 +3,16 @@ package br.com.entra21.exercicios.lista2;
 import javax.swing.JOptionPane;
 
 /**
- * 3.
+ * 3. Solicite para o usuário dois números e apresente o seguinte menu:
+ * 
+ *   MENU
+ *   1 - SOMAR
+ *   2 - SUBTRAIR
+ *   3 - MULTIPLICAR
+ *   4 - DIVIDIR
+ * 
+ * Após usuário escolher o número do menu, deve-se apresentar o cálculo dos dois números 
+ * solicitados de acordo com o menu solicitado.
  */
 /**
  * @author Gabriel B Sousa
@@ -11,31 +20,33 @@ import javax.swing.JOptionPane;
 public class Exercicio03{
     public static void main(String[] args){
 
+        int soma, sub, multiplica, divide;
+
         int numero1 = Integer.parseInt(
             JOptionPane.showInputDialog("Primeiro Número: "));
         int numero2 = Integer.parseInt(
             JOptionPane.showInputDialog("Segundo Número: "));
             
         int opcao = Integer.parseInt(JOptionPane.showInputDialog("MENU"
-                        + "\n1" + "      " + "Soma"
-                        + "\n2" + "      " + "Subtrai"
-                        + "\n3" + "      " + "Multiplica"
-                        + "\n4" + "      " + "Divide"));
+                        + "\n1 - Somar"
+                        + "\n2 - Subtrair"
+                        + "\n3 - Multiplicar"
+                        + "\n4 - Dividir"));
 
         if (opcao == 1){
-            int soma = numero1 + numero2;
+            soma = numero1 + numero2;
             JOptionPane.showMessageDialog(null, "Soma: " + soma);
 
         }else if (opcao == 2){
-            int sub = numero1 - numero2;
+            sub = numero1 - numero2;
             JOptionPane.showMessageDialog(null, "Subtração: " + sub);
 
         }else if (opcao == 3){
-            int multiplica = numero1 * numero2;
+            multiplica = numero1 * numero2;
             JOptionPane.showMessageDialog(null, "Multiplicação: " + multiplica);
 
         }else if(opcao == 4){
-            int divide = numero1 / numero2;
+            divide = numero1 / numero2;
             JOptionPane.showMessageDialog(null, "Divisão: " + divide);
 
         }else{

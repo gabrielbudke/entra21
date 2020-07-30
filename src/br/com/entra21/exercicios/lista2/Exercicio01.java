@@ -3,7 +3,8 @@ package br.com.entra21.exercicios.lista2;
 import javax.swing.JOptionPane;
 
 /**
- * 1.
+ * 1. Solicite para o usuário um número e informe se este número é positivo ou não.
+ *    Obs.: ​Lembrando que zero não é considerado um número positivo.
  */
 /**
  * @author Gabriel B Sousa

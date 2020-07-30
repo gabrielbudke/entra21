@@ -3,13 +3,13 @@ package br.com.entra21.exercicios.lista2;
 import javax.swing.JOptionPane;
 
 /**
- * 12.
+ * 12. Ler dois números e apresentar qual o maior.
  */
 /**
  * @author Gabriel B Sousa
  */
-public class Exercicio12{
-    public static void main(String[] args){
+public class Exercicio12 {
+    public static void main(String[] args) {
         
         double n1 = Double.parseDouble(JOptionPane.showInputDialog("Número A: "));
         double n2 = Double.parseDouble(JOptionPane.showInputDialog("Número B: "));

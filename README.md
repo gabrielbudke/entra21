@@ -23,15 +23,9 @@
 
 ## :pushpin: Info
 
-### :brazil: Portuguese
-
 Este respositório contém os códigos desenvolvidos durante a minha participação no programa Entra21 da edição 2018.
 
 Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos conceitual.
-
-### :us: English
-
-This respository contains the codes developed during my participation in the Entra21 program of the 2018 edition.
 
 ---
 Feito by Gabriel B Sousa

@@ -3,7 +3,7 @@ package br.com.entra21.exercicios.lista2;
 import javax.swing.JOptionPane;
 
 /**
- * 5.
+ * 5. Solicite para o usuário um número e informe se este número é ímpar ou não.
  */
 /**
  * @author Gabriel B Sousa
@@ -11,10 +11,10 @@ import javax.swing.JOptionPane;
 public class Exercicio05{
     public static void main(String[] args){
         
-        int numero = Integer.parseInt(JOptionPane.showInputDialog("Número: "));
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um número: "));
 
         if (numero %2 != 0){
-            JOptionPane.showMessageDialog(null, "Número Ímpar");
+            JOptionPane.showMessageDialog(null, "Número é Ímpar");
 
         }else{
             JOptionPane.showMessageDialog(null, "Número não é ímpar");

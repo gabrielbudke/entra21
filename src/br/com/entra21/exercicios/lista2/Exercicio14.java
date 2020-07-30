@@ -3,30 +3,30 @@ package br.com.entra21.exercicios.lista2;
 import javax.swing.JOptionPane;
 
 /**
- * 14.
+ * 14. Ler três números e apresentar os valores em ordem crescente.
  */
 /**
  * @author Gabriel B Sousa
  */
-public class Exercicio14{
-    public static void main(String[] args){
+public class Exercicio14 {
+    public static void main(String[] args) {
 
-        double nA = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
-        double nB = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
-        double nC = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
+        double numero_A = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
+        double numero_B = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
+        double numero_C = Double.parseDouble(JOptionPane.showInputDialog("Digite qualquer valor numérico: "));
 
-        if (nA < nB && nB < nC && nC > nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nA + "\nNúmero B: " + nB + "\nNúmero C: " +nC);
-        }else if (nA < nB && nB > nC && nC > nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nA + "\nNúmero B: " + nC + "\nNúmero C: " +nB);
-        }else if (nA < nB && nB > nC && nC < nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nC + "\nNúmero B: " + nA + "\nNúmero C: " +nB);
-        }else if (nA > nB && nB < nC && nC > nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nB + "\nNúmero B: " + nA + "\nNúmero C: " +nC);
-        }else if (nA > nB && nB > nC && nC < nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nC + "\nNúmero B: " + nB + "\nNúmero C: " +nA);
-        }else if (nA > nB && nB < nC && nC < nA){
-            JOptionPane.showMessageDialog(null, "Numero A: " + nB + "\nNúmero B: " + nC + "\nNúmero C: " +nA);
+        if (numero_A < numero_B && numero_B < numero_C && numero_C > numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_A + "\nNúmero B: " + numero_B + "\nNúmero C: " +numero_C);
+        } else if (numero_A < numero_B && numero_B > numero_C && numero_C > numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_A + "\nNúmero B: " + numero_C + "\nNúmero C: " +numero_B);
+        } else if (numero_A < numero_B && numero_B > numero_C && numero_C < numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_C + "\nNúmero B: " + numero_A + "\nNúmero C: " +numero_B);
+        } else if (numero_A > numero_B && numero_B < numero_C && numero_C > numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_B + "\nNúmero B: " + numero_A + "\nNúmero C: " +numero_C);
+        } else if (numero_A > numero_B && numero_B > numero_C && numero_C < numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_C + "\nNúmero B: " + numero_B + "\nNúmero C: " +numero_A);
+        } else if (numero_A > numero_B && numero_B < numero_C && numero_C < numero_A) {
+            JOptionPane.showMessageDialog(null, "Numero A: " + numero_B + "\nNúmero B: " + numero_C + "\nNúmero C: " +numero_A);
         }
     }
 }
