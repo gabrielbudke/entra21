@@ -21,7 +21,7 @@ Essa lista de exercício tem como objetivo o treinamento de solicitação de inf
 
 ## Arquivo
 
-- [Lista 01 - Solicitação de Informação.pdf] (https://github.com/gabrielbudke/entra21/tree/master/resourcer/listas
+- [Lista 01 - Solicitação de Informação.pdf](https://github.com/gabrielbudke/entra21/tree/master/resourcer/listas)
 
 ---
 Feito by Gabriel B Sousa

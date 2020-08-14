@@ -25,7 +25,7 @@
 
 Este respositório contém os códigos desenvolvidos durante a minha participação no programa Entra21 da edição 2018.
 
-Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos conceitual.
+Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos de aprendizado.
 
 ## Exercícios
 
