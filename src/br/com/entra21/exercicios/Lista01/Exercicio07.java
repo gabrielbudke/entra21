@@ -1,4 +1,4 @@
-package br.com.entra21.exercicios.lista1;
+package br.com.entra21.exercicios.lista01;
 
 public class Exercicio07 {
     public static void main(String[] args) {

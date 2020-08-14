@@ -29,8 +29,9 @@ Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim 
 
 ## Exercícios
 
-- [Solicitação de Informação](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista1)
-- [Estrutura Condicional](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista2)
+- [Solicitação de Informação](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista01)
+- [Estrutura Condicional](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista02)
+- [Estrutura de Repetição - While](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista02)
 
 ---
 Feito by Gabriel Sousa

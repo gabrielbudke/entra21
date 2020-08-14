@@ -1,4 +1,4 @@
-package br.com.entra21.exercicios.lista2;
+package br.com.entra21.exercicios.lista02;
 
 import javax.swing.JOptionPane;
 

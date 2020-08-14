@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 02 - Estrutura Condicional
+  Lista 03 - Estrutura de Repetição | While
 </h3>
 
 <p align="center">
@@ -17,11 +17,11 @@
 
 ## :pushpin: Info
 
-Essa lista de exercício tem como objetivo o treinamento de fluxo de código através de estrutura condicional.
+Essa lista de exercício tem como objetivo o treinamento de fluxo de repetição através da estrutura while.
 
 ## Arquivo
 
-- [Lista 02 - Estrutura Condicional.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2002%20-%20Estrutura%20Condicional.pdf)
+- [Lista 03 - While.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2003%20-%20While.pdf)
 
 ---
 Feito by Gabriel B Sousa

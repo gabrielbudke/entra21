@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 1 - Solicitação de Informação
+  Lista 01 - Solicitação de Informação
 </h3>
 
 <p align="center">
@@ -21,7 +21,7 @@ Essa lista de exercício tem como objetivo o treinamento de solicitação de inf
 
 ## Arquivo
 
-- [Lista 01 - Solicitação de Informação.pdf](https://github.com/gabrielbudke/entra21/tree/master/resourcer/listas)
+- [Lista 01 - Solicitação de Informação.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2001%20-%20Solicita%C3%A7%C3%A3o%20de%20Informa%C3%A7%C3%A3o.pdf)
 
 ---
 Feito by Gabriel B Sousa
