@@ -10,14 +10,18 @@
 </h3>
 
 <p align="center">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99&style=plastic">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99">
 
   <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99">
 </p>
 
-<p align="center">
-  <a href="https://github.com/gabrielbudke/entra21/tree/master/resources/listas/Lista 01 - Solicitação de Informação.pdf">Lista 1 - Solicitação de Informação</a>
-</p>
+## :pushpin: Info
+
+Essa lista de exercício tem como objetivo o treinamento de solicitação de informação ao usuário, manipulação das informações, criação de váriaveis e prática de lógica de programação.
+
+## Arquivo
+
+- [Lista 01 - Solicitação de Informação.pdf] (https://github.com/gabrielbudke/entra21/tree/master/resourcer/listas
 
 ---
 Feito by Gabriel B Sousa

@@ -10,15 +10,15 @@
 </h3>
 
 <p align="center">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99&style=plastic">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99">
 
   <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99">
 </p>
 
 <p align="center">
-  <a href="https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exemplos">Exemplos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios">Exercícios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#pushpin-info">Info</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exemplos">Exemplos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios">Exercícios</a>
 </p>
 
 ## :pushpin: Info
@@ -27,5 +27,10 @@ Este respositório contém os códigos desenvolvidos durante a minha participaç
 
 Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos conceitual.
 
+## Exercícios
+
+- [Solicitação de Informação](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista1)
+- [Estrutura Condicional](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista2)
+
 ---
-Feito by Gabriel B Sousa
+Feito by Gabriel Sousa
