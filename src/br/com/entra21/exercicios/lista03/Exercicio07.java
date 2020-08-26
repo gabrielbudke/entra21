@@ -1,18 +1,50 @@
 package br.com.entra21.exercicios.lista03;
 
 import javax.swing.JOptionPane;
+/**
+ * 7. O comitê da seleção brasileira de futebol deseja obter algumas estatísticas dos 
+ *    jogadores, para visualizar melhor o desempenho de seus atletas.
+ *      
+ *    Para tal deve-se solicitar as seguintes informações abaixo:
+ *      ➔ Nome;
+ *      ➔ Idade;
+ *      ➔ Peso;
+ *      ➔ Sexo;
+ *      ➔ Altura;
+ *      ➔ Quantidade de gols marcados;
+ *      ➔ Quantidade de cartões amarelos recebidos;
+ *      ➔ Quantidade de cartões vermelhos recebidos;
+ * 
+ *    OBS: Lembrando que um time de futebol terá 22 jogadores.
+ *      
+ *    Ao final deve-se apresentar as seguintes estatísticas:
+ *      ➔ O jogador com o menor peso;
+ *      ➔ O jogador com a maior altura;
+ *      ➔ O jogador com o maior nome;
+ *      ➔ A quantidade de jogadores do sexo F
+ *      ➔ A quantidade de jogadores do sexo M
+ *      ➔ O jogador com a menor quantidade de cartões amarelos recebidos;
+ *      ➔ O jogador com o menor nome;
+ *      ➔ O jogador com o maior peso;
+ *      ➔ O jogador com a maior quantidade de cartões vermelhos recebidos;
+ *      ➔ O jogador com a maior quantidade de cartões amarelos recebidos;
+ *      ➔ O jogador com a menor quantidade de cartões vermelhos recebidos.
+ * 
+ */
+/**
+ * @author Gabriel B Sousa
+ */
 
 public class Exercicio07 {
     public static void main(String[] args) {
-
-
-        //qtd inicial de jogadores
-        int jogadores = 0;
         
-        //sexo
-        int masculino = 0;                      int feminino = 0;
+        int quantidadeJogadores = 0;
+        
+        // Quantidade de jogadores de cada sexo
+        int quantidadeJogadoresMasculino = 0;
+        int quantidadeJogadoresFeminino = 0;         
 
-        //maior e menor nome
+        // Jogador com maior nome
         int maiorNome = Integer.MIN_VALUE;       int menorNome = Integer.MAX_VALUE;
         String jogadorMaiorNome = "";            String jogadorMenorNome = "";
         
@@ -22,80 +54,97 @@ public class Exercicio07 {
        
         //peso
         double maiorPeso = Double.MIN_VALUE;    double menorPeso = Double.MAX_VALUE;
-        String jogadorMaisPesado = "";          String jogadorMaisLeve = "";
+        String jogadorMaisGordo = "";          String jogadorMaisMagro = "";
         
         //cartao amarelo
         int maisAmarelo = Integer.MIN_VALUE;    int menosAmarelo = Integer.MAX_VALUE;
-        String jogadorMaisAmarelo = "";         String jogadorMenosAmarelo = "";
+        String jogadorComMaisAmarelo = "";      String jogadorComMenosAmarelo = "";
 
         //cartao vermelho
         int maisVermelho = Integer.MIN_VALUE;   int menosVermelho = Integer.MAX_VALUE;
-        String jogadorMaisVermelho = "";        String jogadorMenosVermelho = "";
+        String jogadorComMaisVermelho = "";     String jogadorComMenosVermelho = "";
 
 
         //dados dos jogadores
-        while(jogadores <= 21){
-            String sexo = JOptionPane.showInputDialog(null, "Sexo do Jogador", "CADASTRO JOGADOR",
-        JOptionPane.QUESTION_MESSAGE, 
-        null,
-        new Object[]{
-            "", "Masculino", "Feminino"
-        },
-        ""
-        ).toString();
-            String nome = JOptionPane.showInputDialog("Nome do Jogador (a): ").trim().toUpperCase();
-            int idade = Integer.parseInt(JOptionPane.showInputDialog("Idade do Jogador (a): "));
-            double peso = Double.parseDouble(JOptionPane.showInputDialog("Peso do Jogador (a): "));
-            double altura = Double.parseDouble(JOptionPane.showInputDialog("Altura do Jogador (a): "));
-            int gols = Integer.parseInt(JOptionPane.showInputDialog("Gols marcados pelo Jogador (a): "));
-            int amarelo = Integer.parseInt(JOptionPane.showInputDialog("Cartões amarelos recebidos: "));
-            int vermelho = Integer.parseInt(JOptionPane.showInputDialog("Cartões vermelhos recebidos: "));
+        while(quantidadeJogadores <= 21) {
 
-            jogadores = jogadores + 1;
+            String sexo = JOptionPane.showInputDialog(null, "Sexo do " + (quantidadeJogadores + 1) + "° Jogador(a)", 
+                "CADASTRO JOGADOR", JOptionPane.QUESTION_MESSAGE, 
+                null, 
+                new Object[] { 
+                    "", "Masculino", "Feminino" 
+                }, ""
+            ).toString();
+
+
+            String nome = JOptionPane.showInputDialog("Nome do " + (quantidadeJogadores + 1) + "° Jogador(a):").trim().toUpperCase();
+            int idade = Integer.parseInt(JOptionPane.showInputDialog("Idade do " + nome + ":"));
+            double peso = Double.parseDouble(JOptionPane.showInputDialog("Peso do " + nome + ":"));
+            double altura = Double.parseDouble(JOptionPane.showInputDialog("Altura do " + nome + ":"));
+            int quantidadeGols = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de gols marcados pelo " + nome + ":"));
+            int quantidadeCartoesAmarelo = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de cartões amarelos recebidos: "));
+            int quantidadeCartoesVermelho = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de cartões vermelhos recebidos: "));
+
+            quantidadeJogadores = quantidadeJogadores + 1;
 
             if(sexo.equals("Masculino")){
-                masculino = masculino + 1;
+                quantidadeJogadoresMasculino = quantidadeJogadoresMasculino + 1;
             }else if(sexo.equals("Feminino")){
-                feminino = feminino + 1;
+                quantidadeJogadoresFeminino = quantidadeJogadoresFeminino + 1;
             }
 
-            if(peso > maiorPeso){
+            // Verifica o jogador com maior peso e menor peso
+            if(peso > maiorPeso) {
                 maiorPeso = peso;
-                jogadorMaisPesado = nome;
-            }else if(peso < menorPeso){
+                jogadorMaisGordo = nome;
+            } 
+            
+            if(peso < menorPeso) {
                 menorPeso = peso;
-                jogadorMaisLeve = nome;
+                jogadorMaisMagro = nome;
             }
 
-            if (altura > maiorAltura){
+            // Verifica o jogador mais alto e o mais baixo
+            if (altura > maiorAltura) {
                 maiorAltura = altura;
                 jogadorMaisAlto = nome;
 
-            }else if(altura < menorAltura){
+            }
+            
+            if(altura < menorAltura) {
                 menorAltura = altura;
                 jogadorMaisBaixo = nome;
             }
 
-            if(amarelo > maisAmarelo){
-                maisAmarelo = amarelo;
-                jogadorMaisAmarelo = nome;
-            }else if(amarelo < menosAmarelo){
-                menosAmarelo = amarelo;
-                jogadorMenosAmarelo = nome;
+            // Verifica o jogador com maior e menor quantidade de cartão amarelo
+            if(quantidadeCartoesAmarelo > maisAmarelo) {
+                maisAmarelo = quantidadeCartoesAmarelo;
+                jogadorComMaisAmarelo = nome;
+            }
+            
+            if(quantidadeCartoesAmarelo < menosAmarelo) {
+                menosAmarelo = quantidadeCartoesAmarelo;
+                jogadorComMenosAmarelo = nome;
             }
 
-            if(vermelho > maisVermelho){
-                maisVermelho = vermelho;
-                jogadorMaisVermelho = nome;
-            }else if(vermelho < menosVermelho){
-                menosVermelho = vermelho;
-                jogadorMenosVermelho = nome;
+            // Verifica o jogador com maior e menor quantidade de cartão vermelho
+            if(quantidadeCartoesVermelho > maisVermelho) {
+                maisVermelho = quantidadeCartoesVermelho;
+                jogadorComMaisVermelho = nome;
+            }
+            
+            if(quantidadeCartoesVermelho < menosVermelho) {
+                menosVermelho = quantidadeCartoesVermelho;
+                jogadorComMenosVermelho = nome;
             }
 
-            if(nome.length() > maiorNome){
+            // Jogador com o maior e menor nome
+            if(nome.length() > maiorNome) {
                 maiorNome = nome.length();
                 jogadorMaiorNome = nome;
-            }else if(nome.length() < menorNome){
+            }
+            
+            if(nome.length() < menorNome) {
                 menorNome = nome.length();
                 jogadorMenorNome = nome;
             }
@@ -103,16 +152,19 @@ public class Exercicio07 {
         }
 
         JOptionPane.showMessageDialog(null, "Dados dos jogadores:" 
-                     + "\nO jogador com a maior altura: " + jogadorMaisAlto
-                     + "\nO jogador com maior nome: " + jogadorMaiorNome
-                     + "\nA quantidade de jogadores do sexo masculino: " + masculino 
-                     + "\nA quantidade de jogadores do sexo feminino: " + feminino
-                     + "\nO jogador com a menor quantidade de cartões amarelos recebidos: " + jogadorMenosAmarelo
-                     + "\nO jogador com menor nome: " + jogadorMenorNome
-                     + "\nO jogador com maior peso: " + jogadorMaisPesado
-                     + "\nO jogador com a maior quantidade de cartões vermelhos recebidos: " + jogadorMaisVermelho
-                     + "\nO jogador com maior quantidade de cartões amarelos recebidos: " + jogadorMaisAmarelo
-                     + "\nO jogador com a menor quantidade de cartões vermelhos recebidos: " + jogadorMenosVermelho);   
+            + "\nO jogador com a maior altura: " + jogadorMaisAlto
+            + "\nO jogador com a menor altura: " + jogadorMaisBaixo
+            + "\nO jogador com maior nome: " + jogadorMaiorNome
+            + "\nA quantidade de jogadores do sexo masculino: " +  quantidadeJogadoresMasculino
+            + "\nA quantidade de jogadores do sexo feminino: " + quantidadeJogadoresFeminino
+            + "\nO jogador com menor nome: " + jogadorMenorNome
+            + "\nO jogador mais gordo: " + jogadorMaisGordo
+            + "\nO jogador mais magro: " + jogadorMaisMagro
+            + "\nO jogador com maior quantidade de cartões amarelos recebidos: " + jogadorComMaisAmarelo
+            + "\nO jogador com a menor quantidade de cartões amarelos recebidos: " + jogadorComMenosAmarelo
+            + "\nO jogador com a maior quantidade de cartões vermelhos recebidos: " + jogadorComMaisVermelho
+            + "\nO jogador com a menor quantidade de cartões vermelhos recebidos: " + jogadorComMenosVermelho
+        );   
         
     }
 
