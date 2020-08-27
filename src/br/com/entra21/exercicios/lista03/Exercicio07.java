@@ -54,7 +54,7 @@ public class Exercicio07 {
        
         // Mais pesado e mais leve
         double maiorPeso = Double.MIN_VALUE;    double menorPeso = Double.MAX_VALUE;
-        String jogadorMaisGordo = "";          String jogadorMaisMagro = "";
+        String jogadorMaisGordo = "";           String jogadorMaisMagro = "";
         
         // Com mais cartões amarelos e menos cartões amarelos
         int maisAmarelo = Integer.MIN_VALUE;    int menosAmarelo = Integer.MAX_VALUE;
