@@ -48,24 +48,23 @@ public class Exercicio07 {
         int maiorNome = Integer.MIN_VALUE;       int menorNome = Integer.MAX_VALUE;
         String jogadorMaiorNome = "";            String jogadorMenorNome = "";
         
-        //altura
+        // Maior altura e menor altura
         double maiorAltura = Double.MIN_VALUE;  double menorAltura = Double.MAX_VALUE;
         String jogadorMaisAlto = "";            String jogadorMaisBaixo = "";
        
-        //peso
+        // Mais pesado e mais leve
         double maiorPeso = Double.MIN_VALUE;    double menorPeso = Double.MAX_VALUE;
         String jogadorMaisGordo = "";          String jogadorMaisMagro = "";
         
-        //cartao amarelo
+        // Com mais cartões amarelos e menos cartões amarelos
         int maisAmarelo = Integer.MIN_VALUE;    int menosAmarelo = Integer.MAX_VALUE;
         String jogadorComMaisAmarelo = "";      String jogadorComMenosAmarelo = "";
 
-        //cartao vermelho
+        // Com mais cartões vermelhos e menos cartões vermelhos
         int maisVermelho = Integer.MIN_VALUE;   int menosVermelho = Integer.MAX_VALUE;
         String jogadorComMaisVermelho = "";     String jogadorComMenosVermelho = "";
 
-
-        //dados dos jogadores
+        
         while(quantidadeJogadores <= 21) {
 
             String sexo = JOptionPane.showInputDialog(null, "Sexo do " + (quantidadeJogadores + 1) + "° Jogador(a)", 
