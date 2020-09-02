@@ -85,26 +85,6 @@ public class Exercicio04 {
 		}
 
 		System.out.println(quadrado_2);
-
-
-		/*
-		for(int linha = 0; linha < 21; linha++) { 
-			for(int coluna = 0; coluna < 21; coluna++) {
-				
-				if(linha == 0 || linha == 20 || coluna == 0 || coluna == 20) {
-					texto +="* ";
-				
-				} else if(linha == coluna || linha + coluna == 20 || coluna == 10 || linha == 10) {
-					texto += "* ";				
-				} else {
-					texto += "  ";
-				}			
-			}
-			
-			texto += "\n";		
-		}
-		
-		System.out.println(texto);*/
 		
 	}
 

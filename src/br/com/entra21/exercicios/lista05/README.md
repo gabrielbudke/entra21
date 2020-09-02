@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 04 - Vetor
+  Lista 05 - For
 </h3>
 
 <p align="center">
@@ -17,11 +17,11 @@
 
 ## :pushpin: Info
 
-Essa lista de exercício tem como objetivo o a compreensão da estrutura de um Vetor / Array. Embora os códigos estejam de maneira nada adequada, esse repositório é para fins conceituais e iniciantes.
+Essa lista de exercício tem como objetivo o a compreensão da estrutura de repetição For.
 
 ## Arquivo
 
-- [Lista 04 - Vetor.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2004%20-%20Vetor.pdf)
+- [Lista 05 - For.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2005%20-%20For.pdf)
 
 ---
 Made by Gabriel B Sousa
