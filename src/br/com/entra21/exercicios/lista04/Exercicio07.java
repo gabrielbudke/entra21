@@ -19,19 +19,19 @@ public class Exercicio07 {
         alturas[2] = Double.parseDouble(JOptionPane.showInputDialog("Peso do 3º animal: "));
         alturas[3] = Double.parseDouble(JOptionPane.showInputDialog("Peso do 4º animal: "));
 
-        if(alturas[0] < menorAltura){
+        if(alturas[0] < menorAltura) {
             menorAltura = alturas[0];
         }
 
-        if(alturas[1] < menorAltura){
+        if(alturas[1] < menorAltura) {
             menorAltura = alturas[1];
         }
 
-        if(alturas[2] < menorAltura){
+        if(alturas[2] < menorAltura) {
             menorAltura = alturas[2];
         }
 
-        if(alturas[3] < menorAltura){
+        if(alturas[3] < menorAltura) {
             menorAltura = alturas[3];
         }
 

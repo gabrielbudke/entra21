@@ -24,39 +24,39 @@ public class Exercicio06 {
         idades[7] = Integer.parseInt(JOptionPane.showInputDialog("Idade da 8º pessoa: "));
         idades[8] = Integer.parseInt(JOptionPane.showInputDialog("Idade da 9º pessoa: "));
 
-        if(idades[0] > maiorIdade){
+        if(idades[0] > maiorIdade) {
             maiorIdade = idades[0];
         }
 
-        if(idades[1] > maiorIdade){
+        if(idades[1] > maiorIdade) {
             maiorIdade = idades[1];
         }
 
-        if(idades[2] > maiorIdade){
+        if(idades[2] > maiorIdade) {
             maiorIdade = idades[2];
         }
 
-        if(idades[3] > maiorIdade){
+        if(idades[3] > maiorIdade) {
             maiorIdade = idades[3];
         }
 
-        if(idades[4] > maiorIdade){
+        if(idades[4] > maiorIdade) {
             maiorIdade = idades[4];
         }
 
-        if(idades[5] > maiorIdade){
+        if(idades[5] > maiorIdade) {
             maiorIdade = idades[5];
         }
         
-        if(idades[6] > maiorIdade){
+        if(idades[6] > maiorIdade) {
             maiorIdade = idades[6];
         }
         
-        if(idades[7] > maiorIdade){
+        if(idades[7] > maiorIdade) {
             maiorIdade = idades[7];
         }
         
-        if(idades[8] > maiorIdade){
+        if(idades[8] > maiorIdade) {
             maiorIdade = idades[8];
         }
 

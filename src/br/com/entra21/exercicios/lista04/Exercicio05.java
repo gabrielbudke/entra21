@@ -19,7 +19,7 @@ public class Exercicio05 {
         pesos[3] = Double.parseDouble(JOptionPane.showInputDialog("Digite o 4° peso: "));        
         pesos[4] = Double.parseDouble(JOptionPane.showInputDialog("Digite o 5° peso: "));
 
-        double soma = pesos[0]+pesos[1]+pesos[2]+pesos[3]+pesos[4];
+        double soma = pesos[0] + pesos[1] + pesos[2] + pesos[3] + pesos[4];
 
         double media = soma / pesos.length;
 
