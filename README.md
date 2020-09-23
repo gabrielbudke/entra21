@@ -10,9 +10,11 @@
 </h3>
 
 <p align="center">
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99">
+  <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99?style=flat-square">
 
-  <img alt="Made by Gabriel B Sousa" src="https://img.shields.io/badge/made%20by-Gabriel%20B%20Sousa-007d99">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/gabrielbudke/entra21?color=007d99&style=flat-square">
+
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/gabrielbudke/entra21?color=007d99&style=flat-square">
 </p>
 
 <p align="center">
@@ -27,13 +29,15 @@ Este respositório contém os códigos desenvolvidos durante a minha participaç
 
 Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim os códigos possuem um nível iniciante e com objetivos de aprendizado.
 
-## Exercícios
+## :pencil: Exercícios
 
 - [Solicitação de Informação](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista01)
 - [Estrutura Condicional](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista02)
 - [Estrutura de Repetição - While](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista03)
 - [Vetor](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista04)
 - [Estrutura de Repetição - For](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista05)
+- [For com Vetor](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista06)
+- [ArrayList](https://github.com/gabrielbudke/entra21/tree/master/src/br/com/entra21/exercicios/lista07)
 
 ---
 Feito by Gabriel Sousa

@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 03 - Estrutura de Repetição | While
+  Lista 06 - For com Vetor
 </h3>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 ## :pushpin: Info
 
-Essa lista de exercício tem como objetivo o treinamento de fluxo de repetição através da estrutura while.
+Essa lista de exercício tem como objetivo o a compreensão da estrutura de repetição for em cima de estruturas de Array.
 
 ## :open_file_folder: Arquivo
 
-- [Lista 03 - While.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2003%20-%20While.pdf)
+- [Lista 06 - For com Vetor.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2005%20-%20For.pdf)
 
 ---
-Feito by Gabriel B Sousa
+Made by Gabriel B Sousa
