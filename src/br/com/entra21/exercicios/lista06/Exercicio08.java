@@ -30,9 +30,9 @@ public class Exercicio08 {
             arrayOriginal[i] = Integer.parseInt(JOptionPane.showInputDialog("Informe o " + (i + 1) + "° número:"));
             
             if ((i + 1) == arrayOriginal.length) {
-                textoArrayOriginal+= arrayOriginal[i];
+                textoArrayOriginal += arrayOriginal[i];
             } else {
-                textoArrayOriginal+= arrayOriginal[i] + ", ";            
+                textoArrayOriginal += arrayOriginal[i] + ", ";            
             }
         }
 
@@ -44,18 +44,18 @@ public class Exercicio08 {
                 arrayDePares[i] = arrayOriginal[i];
 
                 if ((i + 1) == arrayOriginal.length) {
-                    textoArrayPares+= arrayOriginal[i];
+                    textoArrayPares += arrayOriginal[i];
                 } else {
-                    textoArrayPares+= arrayOriginal[i] + ", ";            
+                    textoArrayPares += arrayOriginal[i] + ", ";            
                 }
 
             } else {
                 arrayDeImpares[i] = arrayOriginal[i];
 
                 if ((i + 1) == arrayOriginal.length) {
-                    textoArrayImpares+= arrayOriginal[i];
+                    textoArrayImpares += arrayOriginal[i];
                 } else {
-                    textoArrayImpares+= arrayOriginal[i] + ", ";            
+                    textoArrayImpares += arrayOriginal[i] + ", ";            
                 }
             }
         }
