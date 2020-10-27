@@ -1,1 +1,5 @@
 *.class
+/src/br/com/entra21/exercicios/lista07/ArrayList/nbproject/private/
+/src/br/com/entra21/exercicios/lista07/ArrayList/build/
+/src/br/com/entra21/projetos/ExemploCadastroCliente/nbproject/private/
+/src/br/com/entra21/projetos/ExemploCadastroCliente/build/
