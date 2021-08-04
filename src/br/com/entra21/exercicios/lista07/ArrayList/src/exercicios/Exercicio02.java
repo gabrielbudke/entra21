@@ -26,9 +26,7 @@ public class Exercicio02 {
         nomes.add("Sasuke Itachi");
         nomes.add("Sakura Haruno");
         nomes.add("Vegeta");
-        nomes.add("Rock Lee");
-        
-    
+        nomes.add("Rock Lee");        
         
         System.out.println("Nomes: " + nomes.toString());
         

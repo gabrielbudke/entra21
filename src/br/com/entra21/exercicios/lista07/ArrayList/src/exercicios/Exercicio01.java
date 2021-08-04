@@ -49,9 +49,7 @@ public class Exercicio01 {
                 + ", " + numeros.get(12)
                 + ", " + numeros.get(13)
                 + ", " + numeros.get(14));
-                
-        
-        
+                               
     }
     
 }
