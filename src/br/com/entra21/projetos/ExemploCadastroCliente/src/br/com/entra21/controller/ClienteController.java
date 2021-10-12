@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package br.com.entra21.controller;
+package br.com.entra21.projetos.ExemploCadastroCliente.src.br.com.entra21.controller;
 
-import br.com.entra21.model.Cliente;
+import br.com.entra21.projetos.ExemploCadastroCliente.src.br.com.entra21.model.Cliente;
 import javax.swing.JOptionPane;
 
 /**
@@ -16,22 +16,17 @@ import javax.swing.JOptionPane;
 public class ClienteController {
 
     Cliente cliente = new Cliente();
-    
+
     public void apresentarMenu() {
-        
-        int menu = Integer.parseInt(JOptionPane.showInputDialog(null, 
-                "1 - Cadastrar Cliente"
-                + "\n2 - Editar Cliente"
-                + "\n3 - Buscar pelo nome"
-                + "\n4 - Buscar pelo CPF"
-                + "\n5 - Listar clientes"
-                + "\n6 - Contabilizador"
-                + "\n8001 - Sair",
-        "MENU DO SISTEMA", JOptionPane.QUESTION_MESSAGE));
-        
-        while(menu != 8001) {
-            
-            switch(menu) {
+
+        int menu = Integer.parseInt(JOptionPane.showInputDialog(null,
+                "1 - Cadastrar Cliente" + "\n2 - Editar Cliente" + "\n3 - Buscar pelo nome" + "\n4 - Buscar pelo CPF"
+                        + "\n5 - Listar clientes" + "\n6 - Contabilizador" + "\n8001 - Sair",
+                "MENU DO SISTEMA", JOptionPane.QUESTION_MESSAGE));
+
+        while (menu != 8001) {
+
+            switch (menu) {
                 case 1:
                     cliente.cadastrar();
                     break;
@@ -49,27 +44,21 @@ public class ClienteController {
                     break;
                 case 6:
                     cliente.contabilizaPeloNome();
-                    break;               
+                    break;
                 default:
                     JOptionPane.showMessageDialog(null, "Opção inválida");
             }
-            
-            menu = Integer.parseInt(JOptionPane.showInputDialog(null, 
-                  "1 - Cadastrar Cliente"
-                + "\n2 - Editar Cliente"
-                + "\n3 - Buscar pelo nome"
-                + "\n4 - Buscar pelo CPF"
-                + "\n5 - Listar clientes"
-                + "\n6 - Contabilizador"
-                + "\n8001 - Sair",
-            "MENU DO SISTEMA", JOptionPane.QUESTION_MESSAGE));
-            
+
+            menu = Integer.parseInt(JOptionPane.showInputDialog(null,
+                    "1 - Cadastrar Cliente" + "\n2 - Editar Cliente" + "\n3 - Buscar pelo nome"
+                            + "\n4 - Buscar pelo CPF" + "\n5 - Listar clientes" + "\n6 - Contabilizador"
+                            + "\n8001 - Sair",
+                    "MENU DO SISTEMA", JOptionPane.QUESTION_MESSAGE));
+
         }
-        
+
         JOptionPane.showMessageDialog(null, "Obrigado por usar o sistema!!");
-                
-        
+
     }
-    
-    
+
 }

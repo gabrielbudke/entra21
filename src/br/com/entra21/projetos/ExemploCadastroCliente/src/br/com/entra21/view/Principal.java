@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.entra21.view;
+package br.com.entra21.projetos.ExemploCadastroCliente.src.br.com.entra21.view;
 
-import br.com.entra21.controller.ClienteController;
+import br.com.entra21.projetos.ExemploCadastroCliente.src.br.com.entra21.controller.ClienteController;
 
 /**
  *
@@ -14,10 +14,10 @@ import br.com.entra21.controller.ClienteController;
 public class Principal {
 
     public static void main(String[] args) {
-        
+
         ClienteController clienteController = new ClienteController();
-        clienteController.apresentarMenu();        
-        
+        clienteController.apresentarMenu();
+
     }
-    
+
 }

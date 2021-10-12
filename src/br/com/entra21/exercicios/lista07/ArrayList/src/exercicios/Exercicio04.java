@@ -1,4 +1,4 @@
-package exercicios;
+package br.com.entra21.exercicios.lista07.ArrayList.src.exercicios;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicios;
+package br.com.entra21.exercicios.lista07.ArrayList.src.exercicios;
 
 import java.util.ArrayList;
 import java.util.List;
