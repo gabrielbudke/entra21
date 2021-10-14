@@ -14,31 +14,53 @@ public class Exercicio18 {
       Scanner scan = new Scanner(System.in);
 
       System.out.print("Informe a hora de nascimento (HH:MM:SS): ");
-      String horaNascimento = scan.nextLine();
+      String horasNascimento = scan.nextLine();
 
-      String horas = horaNascimento.substring(0, 2);
-      String minutos = horaNascimento.substring(3, 5);
-      String segundos = horaNascimento.substring(6, 8);
+      if (horasNascimento.length() == 8) {
+         System.out.println(horasPorExtenso(horasNascimento));
+      } else {
+         System.out.println("O formato das horas é inválido!");
+      }
+
+   }
+
+   public static String horasPorExtenso(String horasNascimento) {
+
+      String horasPorExtenso = "";
+
+      String[] arrayHoras = { "meia-noite", "uma", "duas", "três", "quatro", "cinco", "seis", "sete", "oito", "nove",
+            "dez", "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezesete", "dezoito", "dezenove",
+            "vinte", "vinte e uma", "vinte e duas", "vinte e três", "meia-noite" };
+
+      String horas = horasNascimento.substring(0, 2);
+      String minutos = horasNascimento.substring(3, 5);
+      String segundos = horasNascimento.substring(6, 8);
 
       int horasConvertidasNumero = Integer.parseInt(horas);
+      int minutosConvertidosNumero = Integer.parseInt(minutos);
+      int segundosConvertidosNumero = Integer.parseInt(segundos);
 
-      System.out.println("Hora do nascimento: " + segundos);
+      if (horasConvertidasNumero > 24) {
+         throw new Error("As horas são inválidas!");
+      }
 
-   }
+      if (minutosConvertidosNumero >= 60) {
+         throw new Error("Os minutos são inválidos!");
+      }
 
-   public static boolean validaHoraNascimento(String horas, String minutos, String segundos) {
-      int horasConvertidaNumero = Integer.parseInt(horas);
-      System.out.println(horasConvertidaNumero);
+      if (segundosConvertidosNumero >= 60) {
+         throw new Error("Os segundos são inválidos!");
+      }
 
-      return true;
-   }
+      if (horasConvertidasNumero > 1 && horasConvertidasNumero < 24) {
+         horasPorExtenso += arrayHoras[horasConvertidasNumero] + " horas";
+      } else if (horasConvertidasNumero == 1) {
+         horasPorExtenso += arrayHoras[horasConvertidasNumero] + " hora";
+      } else {
+         horasPorExtenso += arrayHoras[horasConvertidasNumero] + " hora";
+      }
 
-   public static String horasPorExtenso() {
-
-      String[] horas = { "meia-noite", "uma", "duas", "três", "quatro", "cinco", "seis", "sete", "oito", "nove",
-            "dez" };
-
-      return "";
+      return horasPorExtenso;
    }
 
 }
