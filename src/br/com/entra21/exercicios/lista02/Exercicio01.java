@@ -1,5 +1,3 @@
-package br.com.entra21.exercicios.lista02;
-
 import javax.swing.JOptionPane;
 
 /**
@@ -9,17 +7,16 @@ import javax.swing.JOptionPane;
 /**
  * @author Gabriel B Sousa
  */
-public class Exercicio01{
-    public static void main(String[] args){
+public class Exercicio01 {
+    public static void main(String[] args) {
 
-        int numero = Integer.parseInt(
-            JOptionPane.showInputDialog("Número: "));
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Número: "));
 
-        if (numero > 0){
+        if (numero > 0) {
             JOptionPane.showMessageDialog(null, "Positivo");
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, "Não é Positivo!");
         }
-        
+
     }
 }

@@ -1,5 +1,3 @@
-package br.com.entra21.exercicios.lista02;
-
 import javax.swing.JOptionPane;
 
 /**
@@ -17,48 +15,36 @@ import javax.swing.JOptionPane;
 /**
  * @author Gabriel B Sousa
  */
-public class Exercicio03{
-    public static void main(String[] args){
+public class Exercicio03 {
+    public static void main(String[] args) {
 
         int soma, sub, multiplica, divide;
 
-        int numero1 = Integer.parseInt(
-            JOptionPane.showInputDialog("Primeiro Número: "));
-        int numero2 = Integer.parseInt(
-            JOptionPane.showInputDialog("Segundo Número: "));
-            
-        int opcao = Integer.parseInt(JOptionPane.showInputDialog("MENU"
-                        + "\n1 - Somar"
-                        + "\n2 - Subtrair"
-                        + "\n3 - Multiplicar"
-                        + "\n4 - Dividir"));
+        int numero1 = Integer.parseInt(JOptionPane.showInputDialog("Primeiro Número: "));
+        int numero2 = Integer.parseInt(JOptionPane.showInputDialog("Segundo Número: "));
 
-        if (opcao == 1){
+        int opcao = Integer.parseInt(JOptionPane
+                .showInputDialog("MENU" + "\n1 - Somar" + "\n2 - Subtrair" + "\n3 - Multiplicar" + "\n4 - Dividir"));
+
+        if (opcao == 1) {
             soma = numero1 + numero2;
             JOptionPane.showMessageDialog(null, "Soma: " + soma);
 
-        }else if (opcao == 2){
+        } else if (opcao == 2) {
             sub = numero1 - numero2;
             JOptionPane.showMessageDialog(null, "Subtração: " + sub);
 
-        }else if (opcao == 3){
+        } else if (opcao == 3) {
             multiplica = numero1 * numero2;
             JOptionPane.showMessageDialog(null, "Multiplicação: " + multiplica);
 
-        }else if(opcao == 4){
+        } else if (opcao == 4) {
             divide = numero1 / numero2;
             JOptionPane.showMessageDialog(null, "Divisão: " + divide);
 
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, "Opção não disponível");
         }
 
-        
-
-        
-
-
-                        
-        
     }
 }

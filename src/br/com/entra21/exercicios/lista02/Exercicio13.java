@@ -1,5 +1,3 @@
-package br.com.entra21.exercicios.lista02;
-
 import javax.swing.JOptionPane;
 
 /**
@@ -10,10 +8,10 @@ import javax.swing.JOptionPane;
  */
 public class Exercicio13 {
     public static void main(String[] args) {
-        
+
         double n1 = Double.parseDouble(JOptionPane.showInputDialog("Número A: "));
         double n2 = Double.parseDouble(JOptionPane.showInputDialog("Número B: "));
-        
+
         if (n1 < n2) {
             JOptionPane.showMessageDialog(null, "Número A é menor que o Número B");
         } else {

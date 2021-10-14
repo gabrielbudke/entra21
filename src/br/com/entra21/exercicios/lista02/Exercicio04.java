@@ -1,5 +1,3 @@
-package br.com.entra21.exercicios.lista02;
-
 import javax.swing.JOptionPane;
 
 /**
@@ -8,20 +6,18 @@ import javax.swing.JOptionPane;
 /**
  * @author Gabriel B Sousa
  */
-public class Exercicio04{
-    public static void main(String[] args){
+public class Exercicio04 {
+    public static void main(String[] args) {
 
-        int numero = Integer.parseInt(
-            JOptionPane.showInputDialog("Informe um número: "));
+        int numero = Integer.parseInt(JOptionPane.showInputDialog("Informe um número: "));
 
-        if ((numero % 2) == 0){
+        if ((numero % 2) == 0) {
             JOptionPane.showMessageDialog(null, "Número é Par");
 
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, "Número não é Par!");
-            
+
         }
 
-        
     }
 }
