@@ -14,7 +14,7 @@ public class Exercicio19 {
       Scanner scan = new Scanner(System.in);
 
       System.out.print("======== BEM VINDO AO BANCO ENTRA21 ========"
-            + "\nAntes de tudo, precisamos que informe o seu saldo." + "\nDigite seu saldo: R$ ");
+            + "\nAntes de tudo, precisamos que informe o seu saldo atual." + "\nDigite seu saldo atual: R$ ");
 
       double saldo = scan.nextDouble();
 
@@ -25,19 +25,28 @@ public class Exercicio19 {
          opcaoMenu = scan.nextInt();
 
          switch (opcaoMenu) {
+            case 0:
+               System.out.println("Obrigado por usar nosso sistema ;) ");
+               break;
             case 1:
                saldo = depositar(saldo);
+               System.out.println("Depósito realizado com sucesso!" + "\n");
                break;
-            case 2:
-            
-               trycatch
-
+            case 2:       
+               try {
+                  saldo = sacar(saldo);   
+                  System.out.println("Saque realizado com sucesso!" + "\n");
+               } catch (Exception e) {
+                  System.out.println("Operação inválida: " + e.getMessage());
+               }       
+                              
                break;
             case 3:
                apresentar(saldo);
                break;
 
-         default:
+            default:
+               System.out.println("Opção inválida!\n");   
             break;
          }
 
@@ -57,21 +66,21 @@ public class Exercicio19 {
       return saldo + valorDeposito;
    }
 
-   public static double sacar(double saldo) {
+   public static double sacar(double saldo) throws Exception {
       Scanner scan = new Scanner(System.in);
       System.out.print("Informe o valor que deseja sacar: R$");
 
       double valorSaque = scan.nextDouble();
 
       if (valorSaque > saldo) {
-         throw new Error("Saldo insuficiente para saque!");
+         throw new Exception("Saldo insuficiente para saque!");
       }
 
       return saldo - valorSaque;
    }
 
    public static void apresentar(double saldo) {
-      System.out.println("Seu saldo atual é de: R$" + String.format("%.2f", saldo));
+      System.out.println("Seu saldo atual é de: R$" + String.format("%.2f", saldo) + "\n");
    }
 
 }
