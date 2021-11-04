@@ -1,3 +1,5 @@
+package br.com.entra21.exercicios.lista02;
+
 import java.util.Scanner;
 
 /**
