@@ -11,7 +11,7 @@ import java.util.Scanner;
  *    -> Nome com o menor nome;
  *    -> Quantidade de pessoas que têm o nome Paulo;
  *    -> Quantidade de pessoas que têm o nome Ana;
- *    -> Quantidade de pessoas que têm a primeira letra do nome começando com uma vogal.
+ *    -> Quantidade de pessoas que têm a primeira letra do nome começando com uma vogal;
  */
 /**
  * @author Gabriel B. de Sousa
