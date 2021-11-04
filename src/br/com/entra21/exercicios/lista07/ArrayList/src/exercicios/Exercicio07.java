@@ -2,7 +2,6 @@ package br.com.entra21.exercicios.lista07.ArrayList.src.exercicios;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 /**
