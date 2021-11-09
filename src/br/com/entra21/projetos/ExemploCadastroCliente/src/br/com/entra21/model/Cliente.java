@@ -32,7 +32,7 @@ public class Cliente {
     }
 
     public void cadastrar() {
-        solicitarInformações(this.id);
+        solicitarInformacoes(this.id);
         this.id++;
     }
 
@@ -58,7 +58,7 @@ public class Cliente {
 
         for (int i = 0; i < this.id; i++) {
             if (this.nomes[i].equals(buscar)) {
-                solicitarInformações(i);
+                solicitarInformacoes(i);
                 return;
             }
 
@@ -117,7 +117,7 @@ public class Cliente {
                         + this.numeros[id] + "\nCEP: " + this.ceps[id] + "\nComplemento: " + this.complementos[id]);
     }
 
-    public void solicitarInformações(int id) {
+    public void solicitarInformacoes(int id) {
         nomes[id] = JOptionPane.showInputDialog(null, "Nome:", "CADASTRO DO CLIENTE", JOptionPane.QUESTION_MESSAGE)
                 .trim().toUpperCase();
         idades[id] = Short.parseShort(
