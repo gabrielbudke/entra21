@@ -1,8 +1,9 @@
 public class Filme {
 
-   private String titulo, tituloOriginal, genero, diretor;
-   private int anoLancamento;
+   private String titulo, tituloOriginal, genero, diretor, idioma;
+   private int anoLancamento, anoLancamentoBrasil;
    private double valorOrcamento, valorFaturamento;
+   private short classificacao;
 
    public String getTitulo() {
       return titulo;
@@ -60,8 +61,28 @@ public class Filme {
       this.valorFaturamento = valorFaturamento;
    }
 
-   
+   public String getIdioma() {
+      return idioma;
+   }
 
-   
+   public void setIdioma(String idioma) {
+      this.idioma = idioma;
+   }
+
+   public int getAnoLancamentoBrasil() {
+      return anoLancamentoBrasil;
+   }
+
+   public void setAnoLancamentoBrasil(int anoLancamentoBrasil) {
+      this.anoLancamentoBrasil = anoLancamentoBrasil;
+   }
+
+   public short getClassificacao() {
+      return classificacao;
+   }
+
+   public void setClassificacao(short classificacao) {
+      this.classificacao = classificacao;
+   }
 
 }

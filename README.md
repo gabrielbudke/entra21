@@ -39,6 +39,7 @@ Foi no Entra21 que tive meu primeiro contato com com programação. Sendo assim 
 - [Estrutura de Repetição - For](./src/br/com/entra21/exercicios/lista05)
 - [For com Vetor](./src/br/com/entra21/exercicios/lista06)
 - [ArrayList](./src/br/com/entra21/exercicios/lista07)
+- [Getter e Setters](./src/br/com/entra21/exercicios/lista08)
 
 ---
 

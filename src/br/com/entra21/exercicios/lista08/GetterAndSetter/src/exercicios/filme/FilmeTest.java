@@ -1,6 +1,5 @@
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
 import org.junit.Test;
 
 public class FilmeTest {
@@ -15,8 +14,8 @@ public class FilmeTest {
    @Test
    public void testDefinirEObterTituloOriginal() {
       Filme filme = new Filme();
-      filme.setTituloOriginal("Dead Society Poets");
-      assertEquals("Dead Society Poets", filme.getTituloOriginal());
+      filme.setTituloOriginal("Dead Poets Society");
+      assertEquals("Dead Poets Society", filme.getTituloOriginal());
    }
 
    @Test
@@ -36,8 +35,8 @@ public class FilmeTest {
    @Test
    public void testDefinirEObterAnoLancamento() {
       Filme filme = new Filme();
-      filme.setAnoLancamento(1998);
-      assertEquals(1998, filme.getAnoLancamento());
+      filme.setAnoLancamento(1990);
+      assertEquals(1990, filme.getAnoLancamento());
    }
 
    @Test
@@ -52,6 +51,27 @@ public class FilmeTest {
       Filme filme = new Filme();
       filme.setValorFaturamento(235860116.00);
       assertEquals(235860116, filme.getValorFaturamento(), 0);
+   }
+
+   @Test
+   public void testDefinirEObterClassificacao() {
+      Filme filme = new Filme();
+      filme.setClassificacao((short) 12);
+      assertEquals(12, filme.getClassificacao());
+   }
+
+   @Test
+   public void testDefinirEObterAnoLancamentoBrasil() {
+      Filme filme = new Filme();
+      filme.setAnoLancamentoBrasil(1990);
+      assertEquals(1990, filme.getAnoLancamentoBrasil());
+   }
+
+   @Test
+   public void testDefinirEObterIdioma() {
+      Filme filme = new Filme();
+      filme.setIdioma("Inglês");
+      assertEquals("Inglês", filme.getIdioma());
    }
 
 }
