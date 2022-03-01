@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 06 - For com Vetor
+  Lista 08 - Getter and Setters
 </h3>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 ## :pushpin: Info
 
-Essa lista de exercício tem como objetivo a compreensão da estrutura de repetição for em cima de estruturas de Array.
+Essa lista de exercício tem como objetivo a compreensão dos modificadores de acesso Get e Set e a biblioteca de testes JUnit.
 
 ## :open_file_folder: Arquivo
 
-- [Lista 06 - For com Vetor.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2005%20-%20For.pdf)
+- [Lista 08 - Getters and Setters.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2008%20-%20Classe%20Get%20Set.pdf)
 
 ---
 Made by Gabriel B Sousa

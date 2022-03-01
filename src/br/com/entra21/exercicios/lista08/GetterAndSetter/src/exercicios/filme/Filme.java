@@ -1,3 +1,5 @@
+package exercicios.filme;
+
 public class Filme {
 
    private String titulo, tituloOriginal, genero, diretor, idioma;

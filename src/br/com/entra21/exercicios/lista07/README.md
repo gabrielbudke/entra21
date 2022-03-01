@@ -6,7 +6,7 @@
 </div>
 
 <h3 align="center">
-  Lista 06 - For com Vetor
+  Lista 07 - Arraylist
 </h3>
 
 <p align="center">
@@ -19,11 +19,11 @@
 
 ## :pushpin: Info
 
-Essa lista de exercício tem como objetivo a compreensão da estrutura de repetição for em cima de estruturas de Array.
+Essa lista de exercício tem como objetivo a compreensão da estrutura ArrayList.
 
 ## :open_file_folder: Arquivo
 
-- [Lista 06 - For com Vetor.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2005%20-%20For.pdf)
+- [Lista 07 - ArrayList.pdf](https://github.com/gabrielbudke/entra21/blob/master/resources/listas/Lista%2007%20-%20ArrayList.pdf)
 
 ---
 Made by Gabriel B Sousa
