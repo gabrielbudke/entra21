@@ -6,6 +6,38 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * 6. Crie um JFrame contendo os seguintes componentes:
+ *      - Jlabel para o nome
+ *      - JLabel para o peso
+ *      - JLabel para a altura
+ *      - JTextField para o nome
+ *      - JTextField para o peso
+ *      - JTextField para a altura
+ *      - JButton para calcular o IMC
+ *
+ *  Ao ocorrer o evento do clique no botão, deve-se obter o nome,
+ *  idade, altura e peso armazenando em variáveis. Após isto
+ *  deve-se realizar o cálculo do imc e apresentar para o usuário o
+ *  nome concatenado com a classificação de acordo com a tabela abaixo:
+ *
+ *  |-------------------------------------------------------------------|
+ *  |     Valor do IMC              |           Classificação           |
+ *  |-------------------------------------------------------------------|
+ *  |        Até 9.99               |         Desnutrição Grau V        |
+ *  |     de 10 até 12,9            |         Desnutrição Grau IV       |
+ *  |     de 13 até 15,9            |         Desnutrição Grau III      |
+ *  |     de 16 até 16,9            |         Desnutrição Grau II       |
+ *  |     de 17 até 18,4            |         Desnutrição Grau I        |
+ *  |     de 18,5 até 24,9          |         Normal                    |
+ *  |     de 25 até 29,9            |         Pré-obesidade             |
+ *  |     de 30 até 34,5            |         Obesidade Grau I          |
+ *  |     de 35 até 39,9            |         Obesidade Grau II         |
+ *  |     maior que 39.9            |         Obesidade Grau III        |
+ *  |                                                                   |
+ *  |-------------------------------------------------------------------|
+ */
+
 public class Exercicio06 implements IExercicioBase {
 
     private JFrame frame;

@@ -195,8 +195,6 @@ public class Exercicio05 implements IExercicioBase {
                     return;
                 }
 
-
-
                 try {
                     double numero1 = Double.parseDouble(textFieldNumero1.getText());
                     double numero2 = Double.parseDouble(textFieldNumero2.getText());
