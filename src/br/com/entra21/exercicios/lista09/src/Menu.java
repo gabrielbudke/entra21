@@ -4,6 +4,8 @@ import exercicio03.Exercicio03;
 import exercicio04.Exercicio04;
 import exercicio05.Exercicio05;
 import exercicio06.Exercicio06;
+import exercicio07.Exercicio07;
+import exercicio08.Exercicio08;
 import interfaces.IExercicioBase;
 
 import javax.swing.*;
@@ -14,7 +16,8 @@ public class Menu implements IExercicioBase {
 
     private JFrame frame;
     private JButton buttonExercicio01, buttonExercicio02, buttonExercicio03,
-                    buttonExercicio04, buttonExercicio05, buttonExercicio06;
+            buttonExercicio04, buttonExercicio05, buttonExercicio06,
+            buttonExercicio07, buttonExercicio08;
 
     public Menu() {
         geraTela();
@@ -28,6 +31,8 @@ public class Menu implements IExercicioBase {
         actionButtonExercicio04();
         actionButtonExercicio05();
         actionButtonExercicio06();
+        actionButtonExercicio07();
+        actionButtonExercicio08();
         adicionaComponentes();
         frame.setVisible(true);
     }
@@ -51,6 +56,8 @@ public class Menu implements IExercicioBase {
         buttonExercicio04 = new JButton("Exercício 04");
         buttonExercicio05 = new JButton("Exercicio 05");
         buttonExercicio06 = new JButton("Exercicio 06");
+        buttonExercicio07 = new JButton("Exercicio 07");
+        buttonExercicio08 = new JButton("Exercicio 08");
     }
 
     @Override
@@ -61,6 +68,9 @@ public class Menu implements IExercicioBase {
         buttonExercicio04.setSize(125, 20);
         buttonExercicio05.setSize(125, 20);
         buttonExercicio06.setSize(125, 20);
+        buttonExercicio07.setSize(125, 20);
+        buttonExercicio08.setSize(125, 20);
+
     }
 
     @Override
@@ -71,7 +81,8 @@ public class Menu implements IExercicioBase {
         buttonExercicio04.setLocation(10, 40);
         buttonExercicio05.setLocation(145, 40);
         buttonExercicio06.setLocation(280, 40);
-
+        buttonExercicio07.setLocation(10, 70);
+        buttonExercicio08.setLocation(145, 70);
     }
 
     @Override
@@ -82,6 +93,8 @@ public class Menu implements IExercicioBase {
         frame.add(buttonExercicio04);
         frame.add(buttonExercicio05);
         frame.add(buttonExercicio06);
+        frame.add(buttonExercicio07);
+        frame.add(buttonExercicio08);
     }
 
     public void estilizaComponente() {
@@ -91,6 +104,8 @@ public class Menu implements IExercicioBase {
         buttonExercicio04.setFocusPainted(false);
         buttonExercicio05.setFocusPainted(false);
         buttonExercicio06.setFocusPainted(false);
+        buttonExercicio07.setFocusPainted(false);
+        buttonExercicio08.setFocusPainted(false);
     }
 
     public void actionButtonExercicio01() {
@@ -147,6 +162,23 @@ public class Menu implements IExercicioBase {
         });
     }
 
+    private void actionButtonExercicio07() {
+        buttonExercicio07.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new Exercicio07();
+            }
+        });
+    }
+
+    private void actionButtonExercicio08() {
+        buttonExercicio08.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new Exercicio08();
+            }
+        });
+    }
 
 }
 

@@ -1,8 +1,6 @@
 package exercicio02;
 
 import interfaces.IExercicioBase;
-import jdk.nashorn.internal.scripts.JO;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

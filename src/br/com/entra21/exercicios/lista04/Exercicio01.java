@@ -1,6 +1,7 @@
 package br.com.entra21.exercicios.lista04;
 
 import javax.swing.JOptionPane;
+
 /**
  * 1. Crie um vetor para guardar 16 números inteiros. 
  *    Preencha todas as posições com números e apresente a soma destes números.
