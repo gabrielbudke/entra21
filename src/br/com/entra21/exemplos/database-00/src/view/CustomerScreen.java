@@ -292,7 +292,6 @@ public class CustomerScreen implements IBaseGUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int linhaSelecionada = customerTable.getSelectedRow();
-                logger.info("linha selecionada >> " + linhaSelecionada);
 
                 if(linhaSelecionada == -1) {
                     JOptionPane.showMessageDialog(null, "Nenhum registro foi selecionado para exclusão.", "AVISO", JOptionPane.WARNING_MESSAGE);
